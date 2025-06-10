@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Padu Portfolio (PP)</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('about')">About</a>
+    </nav>
+
+    <div id="home" class="container">
+      <div class="cover" onclick="openGallery(1)">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <div class="cover-text">Project 1</div>
+      </div>
+      <div class="cover" onclick="openGallery(2)">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <div class="cover-text">Project 2</div>
+      </div>
+    </div>
+
+    <div id="about" style="display: none; padding: 20px">
+      <h2>About Me</h2>
+      <p>
+        This is a simple portfolio website showcasing projects and galleries.
+      </p>
+    </div>
+
+    <div id="gallery" class="gallery"></div>
+  </body>
+</html>
