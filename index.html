@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://i.ibb.co/GfSKrcQC/android-chrome-192x192.png" />
     <title>Padu Portfolio (PP)</title>
     <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
   </head>
   <body>
     <nav>
-      <a href="#" onclick="showSection('home')">Home</a>
-      <a href="#" onclick="showSection('about')">About</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
     </nav>
 
     <div id="home" class="container">
-      <div class="cover" onclick="openGallery(1)">
-        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
-        <div class="cover-text">Project 1</div>
+      <div class="cover">
+        <a href="gallery1.html">
+          <img src="https://i.ibb.co/ks4n4s2h/pfp.png" alt="LILMIX PROJECT" />
+          <div class="cover-text">LILMIX Project</div>
+        </a>
       </div>
-      <div class="cover" onclick="openGallery(2)">
-        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
-        <div class="cover-text">Project 2</div>
+      <div class="cover">
+        <a href="gallery2.html">
+          <img src="https://i.ibb.co/21L2gZ9Y/cover.png" alt="BULLSEND PROJECT" />
+          <div class="cover-text">Bullsend Project</div>
+      </a>
       </div>
     </div>
-
-    <div id="about" style="display: none; padding: 20px">
-      <h2>About Me</h2>
-      <p>
-        This is a simple portfolio website showcasing projects and galleries.
-      </p>
-    </div>
-
-    <div id="gallery" class="gallery"></div>
   </body>
 </html>
