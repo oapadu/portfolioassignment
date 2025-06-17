@@ -110,7 +110,7 @@ footer a {
 
 .project-description {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   font-size: 25px;
   padding: 10px;
