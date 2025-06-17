@@ -101,7 +101,7 @@ footer a {
 
 .project-title {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   font-size: 45px;
   font-weight: bold;
