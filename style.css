@@ -69,7 +69,6 @@ nav a {
   opacity: 1;
 }
 .gallery {
-  display: none;
   flex-wrap: wrap;
   gap: 10px;
   padding: 50px;
