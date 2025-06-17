@@ -88,7 +88,6 @@ footer a {
   gap: 10px;
   padding: 50px;
 }
-
 .project-title {
   display: flex;
   align-items: center;
@@ -97,7 +96,6 @@ footer a {
   font-weight: bold;
   padding: 50px;
 }
-
 .project-description {
   display: flex;
   align-items: center;
