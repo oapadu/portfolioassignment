@@ -49,8 +49,8 @@ footer a {
 }
 .cover {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 450px;
+  height: 300px;
   overflow: hidden;
   cursor: pointer;
 }
