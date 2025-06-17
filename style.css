@@ -21,11 +21,11 @@ nav a {
 footer {
   display: flex;
   padding: 50px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 footer a {
-  color: black;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -96,4 +96,12 @@ footer a {
   font-size: 45px;
   font-weight: bold;
   padding: 50px;
+}
+
+.project-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px;
 }
